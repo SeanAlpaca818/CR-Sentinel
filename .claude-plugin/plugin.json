@@ -1,6 +1,6 @@
 {
   "name": "CR-Sentinel",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Final sanity-check pass for ML papers at the camera-ready stage. Catches number mismatches, broken refs, unsupported claims, rebuttal-sounding text, forgotten de-anonymization, and venue-checklist drift — without rewriting the paper.",
   "author": {
     "name": "Shaoyi Zheng"
