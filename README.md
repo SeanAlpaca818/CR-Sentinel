@@ -30,7 +30,18 @@ One-line install inside Claude Code:
 
 Restart Claude Code if needed. The skill becomes available globally.
 
-### Option B — Manual install (plain skill)
+### Option B — Claude.ai web / desktop app (`.skill` upload)
+
+Claude Code plugins do not show up on claude.ai. For the web client (or the Mac/Windows desktop app), upload the bundled `.skill` file instead:
+
+1. Download [`cr-sentinel.skill`](cr-sentinel.skill) from this repo.
+2. In claude.ai, open **Settings → Capabilities → Skills** (some accounts call this section **Features**).
+3. Click **Upload skill** and select the `.skill` file.
+4. In any new conversation the skill will auto-trigger on camera-ready / paper-review prompts, or you can attach it manually from the "+" menu.
+
+Note: the web client requires lowercase skill names, so it appears as **`cr-sentinel`** there. The Claude Code version keeps the `CR-Sentinel` name — they are the same skill, just packaged for two different runtimes.
+
+### Option C — Manual install (plain skill, Claude Code)
 
 Clone the skill directly into your Claude skills directory:
 
