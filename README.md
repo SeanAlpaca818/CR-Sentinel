@@ -1,5 +1,9 @@
 # CR-Sentinel
 
+**English** | [中文](README.zh-CN.md)
+
+---
+
 A [Claude Code](https://claude.com/claude-code) skill for the **final sanity-check pass** on a machine learning paper at the camera-ready stage.
 
 It does **not** rewrite your paper. It surfaces the kinds of issues that damage reviewer trust or break the submission:
