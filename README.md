@@ -30,6 +30,14 @@ One-line install inside Claude Code:
 
 Restart Claude Code if needed. The skill becomes available globally.
 
+**To upgrade to a newer release later:**
+
+```
+/plugin update CR-Sentinel@CR-Sentinel
+```
+
+This re-pulls the latest version from this repo without you having to uninstall and reinstall.
+
 ### Option B — Claude.ai web / desktop app (`.skill` upload)
 
 Claude Code plugins do not show up on claude.ai. For the web client (or the Mac/Windows desktop app), upload the bundled `.skill` file instead:
