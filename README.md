@@ -33,10 +33,18 @@ Restart Claude Code if needed. The skill becomes available globally.
 **To upgrade to a newer release later:**
 
 ```
+/plugin marketplace update CR-Sentinel
 /plugin update CR-Sentinel@CR-Sentinel
 ```
 
-This re-pulls the latest version from this repo without you having to uninstall and reinstall.
+The first command refreshes the cached marketplace metadata so Claude Code can see the new version; the second performs the upgrade.
+
+If `/plugin update` opens the Discover panel instead of upgrading (Claude Code does this when it can't see a version delta), do a clean reinstall:
+
+```
+/plugin uninstall CR-Sentinel@CR-Sentinel
+/plugin install CR-Sentinel@CR-Sentinel
+```
 
 ### Option B — Claude.ai web / desktop app (`.skill` upload)
 
