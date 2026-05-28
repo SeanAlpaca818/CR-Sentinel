@@ -1,0 +1,19 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "CR-Sentinel",
+  "description": "CR-Sentinel — camera-ready sanity check for ML papers",
+  "owner": {
+    "name": "Shaoyi Zheng"
+  },
+  "plugins": [
+    {
+      "name": "CR-Sentinel",
+      "description": "Final sanity-check pass for ML papers at the camera-ready stage. Catches number mismatches, broken refs, unsupported claims, and rebuttal-sounding text — without rewriting the paper.",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/SeanAlpaca818/CR-Sentinel.git"
+      },
+      "homepage": "https://github.com/SeanAlpaca818/CR-Sentinel"
+    }
+  ]
+}

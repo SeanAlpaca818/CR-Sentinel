@@ -1,0 +1,10 @@
+{
+  "name": "CR-Sentinel",
+  "version": "0.1.0",
+  "description": "Final sanity-check pass for ML papers at the camera-ready stage. Catches number mismatches, broken refs, unsupported claims, and rebuttal-sounding text — without rewriting the paper.",
+  "author": {
+    "name": "Shaoyi Zheng"
+  },
+  "homepage": "https://github.com/SeanAlpaca818/CR-Sentinel",
+  "keywords": ["claude-code", "skill", "machine-learning", "camera-ready", "paper-review", "latex"]
+}
